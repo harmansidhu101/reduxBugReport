@@ -45,6 +45,7 @@ function App() {
           id: bugRemoveId
         }
       })
+      alert(`Bug removed : ${bugs?.find(item => item.id == bugRemoveId)?.description}`)
     } else {
       alert("Invalid Id!")
       return true;
@@ -95,7 +96,7 @@ function App() {
 
       <div className='mainBugDiv'>
         {
-          bugs.length > 0 ? bugs.map(bug => <div key={bug.id} className='bugDiv'>
+          bugs.length > 0 ? bugs.map(bug => <div key={bug.id} className={bug.resolved ? 'resolvedBugDiv' : 'bugDiv'}>
             <div>
               <b>ID</b>: {bug.id}
             </div>

@@ -1,14 +1,14 @@
-.mainDiv{
+.mainDiv {
     width: 90%;
     margin: auto;
 }
 
-.mainHeadingDiv{
+.mainHeadingDiv {
     width: 100%;
     text-align: center;
 }
 
-.mainBtn{
+.mainBtn {
     margin: 5px;
     border: none;
     padding: 10px;
@@ -16,32 +16,43 @@
     cursor: pointer;
 }
 
-.mainBtn:hover{
+.mainBtn:hover {
     background-color: seagreen;
     color: #fff;
 }
 
-.mainBugDiv{
+.mainBugDiv {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     margin-top: 20px;
 }
 
-.bugDiv{
+.bugDiv {
     padding: 5px;
     width: 200px;
     height: 100px;
     margin: 0.5%;
     border: 1px solid black;
     overflow: auto;
+    /* background-color: rgb(210, 96, 96); */
 }
 
-.bugDiv div{
+.resolvedBugDiv {
+    padding: 5px;
+    width: 200px;
+    height: 100px;
+    margin: 0.5%;
+    border: 1px solid black;
+    overflow: auto;
+    background-color: rgb(64, 215, 165);
+}
+
+.bugDiv div {
     margin-top: 5px;
 }
 
-.popUpBack{
+.popUpBack {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -51,48 +62,48 @@
     left: 0px;
 }
 
-.popUp{
-    width: 450px; 
-    text-align: center; 
-    height: 300px; 
-    background-color: seagreen; 
-    position: fixed; 
-    left: 32.5%; 
-    top: 150px; 
-    margin: auto; 
+.popUp {
+    width: 450px;
+    text-align: center;
+    height: 300px;
+    background-color: seagreen;
+    position: fixed;
+    left: 32.5%;
+    top: 150px;
+    margin: auto;
     border-radius: 5%;
 }
 
-.closePopUp{
-    float: right; 
-    cursor: pointer; 
-    margin-right: 15px; 
-    margin-top: 10px; 
+.closePopUp {
+    float: right;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-top: 10px;
     font-weight: bold;
 }
 
-.popUpHeading{
-    margin-top: 70px; 
+.popUpHeading {
+    margin-top: 70px;
     color: #fff;
 }
 
-.popUpInputDiv{
+.popUpInputDiv {
     margin-top: 10px;
 }
 
-.popUpInputDiv input{
-    padding: 10px; 
+.popUpInputDiv input {
+    padding: 10px;
     font-size: 15px;
 }
 
-.popUpSubmitBtn{
+.popUpSubmitBtn {
     margin-top: 20px;
 }
 
-.popUpSubmitBtn button{
-    border: none; 
-    padding: 7px; 
-    font-size: 15px; 
-    background-color: black; 
+.popUpSubmitBtn button {
+    border: none;
+    padding: 7px;
+    font-size: 15px;
+    background-color: black;
     color: #fff;
 }
