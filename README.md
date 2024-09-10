@@ -3,6 +3,7 @@ It's a bug report app, used redux for temporary storage
 In the project directory, run:
 ### `npm install`
 
+
 then run:
 ### `npm start`
 
